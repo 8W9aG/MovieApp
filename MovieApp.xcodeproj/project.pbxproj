@@ -13,6 +13,7 @@
 		05D1313F1E9A468C005BFEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D1313E1E9A468C005BFEE1 /* Assets.xcassets */; };
 		05D131421E9A468C005BFEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D131401E9A468C005BFEE1 /* LaunchScreen.storyboard */; };
 		05D1314D1E9A468C005BFEE1 /* MovieAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1314C1E9A468C005BFEE1 /* MovieAppTests.m */; };
+		05D1315B1E9A5900005BFEE1 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1315A1E9A5900005BFEE1 /* SearchResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		05D131481E9A468C005BFEE1 /* MovieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D1314C1E9A468C005BFEE1 /* MovieAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieAppTests.m; sourceTree = "<group>"; };
 		05D1314E1E9A468C005BFEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D131591E9A5900005BFEE1 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
+		05D1315A1E9A5900005BFEE1 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				05D131361E9A468C005BFEE1 /* AppDelegate.m */,
 				05D131381E9A468C005BFEE1 /* ViewController.h */,
 				05D131391E9A468C005BFEE1 /* ViewController.m */,
+				05D131591E9A5900005BFEE1 /* SearchResultsViewController.h */,
+				05D1315A1E9A5900005BFEE1 /* SearchResultsViewController.m */,
 				05D1313E1E9A468C005BFEE1 /* Assets.xcassets */,
 				05D131401E9A468C005BFEE1 /* LaunchScreen.storyboard */,
 				05D131431E9A468C005BFEE1 /* Info.plist */,
@@ -212,6 +217,7 @@
 				05D1313A1E9A468C005BFEE1 /* ViewController.m in Sources */,
 				05D131371E9A468C005BFEE1 /* AppDelegate.m in Sources */,
 				05D131341E9A468C005BFEE1 /* main.m in Sources */,
+				05D1315B1E9A5900005BFEE1 /* SearchResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
